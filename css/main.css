@@ -7,6 +7,14 @@
 }
 body{
     font-family: "Heebo";
+    color: #21243D;
+}
+/*
+  Обертка
+*/
+.wrapper{
+    margin: 0 auto;
+    width: 856px;
 }
 /*
     Меню
@@ -28,4 +36,50 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+}
+/*Block author*/
+.author{
+    margin-top: 128px;
+    margin-bottom: 72px;
+}
+.author .wrapper{
+    overflow: hidden;
+}
+.author__info{
+    float: left;
+    width: calc(100% - 243px);
+    padding-right: 115px;
+}
+.author__title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 136%;
+    margin-bottom: 40px;
+}
+.author__text{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.author__avatar{
+    float: right;
+    width: 243px;
+}
+.author__avatar img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -6px 6px 0px #EDF7FA; /* тень */
+}
+
+/*BUTTON*/
+.button{
+    color: #fff;
+    background-color: #FF6464;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
