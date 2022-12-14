@@ -5,6 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*BUTTON*/
+.button{
+    color: #fff;
+    background-color: #FF6464;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
 body{
     font-family: "Heebo";
     color: #21243D;
@@ -69,17 +82,34 @@ body{
     border-radius: 50%;
     box-shadow: -6px 6px 0px #EDF7FA; /* тень */
 }
+/*End author*/
+/* POSTS */
+.posts{
+    margin-top: 72px;
+    margin-bottom: 32px;
+    background-color: #EDF7FA;
+}
+.posts__header{
+    overflow: hidden;
 
-/*BUTTON*/
-.button{
-    color: #fff;
-    background-color: #FF6464;
-    border-radius: 2px;
-    display: inline-block;
-    padding: 8px 20px;
-    font-size: 20px;
-    font-weight: 500;
+}
+.posts__title{
+    float: left;
+}
+.posts__header a{
+    float: right;
     text-decoration: none;
-    border: none;
-    cursor: pointer;
+    font-size: 16px;
+    color: #00A8CC;
+}
+.posts__cards{
+    overflow: hidden;
+}
+.posts__card{
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 20px;
+}
+.posts__card:last-child{
+    margin-right: 0;
 }
