@@ -154,10 +154,61 @@ body{
 /*End Postss*/
 /*WORKS*/
 .works{
-    margin-top: 60px;
-    margin-bottom: 140px;
+    margin-top: 28px;
+    margin-bottom: 84px;
 }
 .works__title{
-    margin-bottom: 32px;
+    margin-bottom: 36px;
+    font-size: 22px;
+}
+.work{
+    border-bottom:  1px solid #e0e0e0;
+    margin-bottom: 36px;
+    padding-bottom: 32px;
+    overflow: hidden;
+}
+
+.work__img,
+.works__info{
+    float: left;
+}
+
+.work__img{
+    width: 246px;
+}
+.work__img img{
+    border-radius: 6px;
+    width: 100%;
+}
+
+.works__info{
+    width: calc(100% - 246px);
+    padding-left: 20px;
+}
+
+.work__title{
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.work__info-year, .work__info-name{
+    float: left;
+}
+
+.work__info-year{
+    background-color: #142850;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0 12px;
+}
+.work__info-name{
+    margin-left: 24px;
+    color: #8695A4;
+    font-size: 20px;
+}
+.work__info, .work__text{
+    margin-top: 20px;
 }
 /*End*/
